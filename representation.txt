@@ -1,0 +1,263 @@
+###
+Jörg Stückler, Nenad Biresev, and Sven Behnke. 
+Semantic mapping using object-class segmentation of rgb-d images. 
+In Proc. of the IEEE/RSJ Intl. Conf. on Intelligent Robots and Systems (IROS)
+2012.
+>>>
+Map management: Bayesian Update + CRF smoothing
+Reconstruction: Volumetric SLAM
+Recognition: 2D RDF 
+Active vision: none
+###
+
+###
+Alexander Hermans, Georgios Floros, and Bastian Leibe. 
+Dense 3d semantic mapping of indoor scenes from rgb-d images. 
+ICRA
+2014
+>>>
+Map management: Bayesian Update + CRF smoothing
+Reconstruction: 3D SLAM
+Recognition: 2D RDF
+Active vision: none
+###
+
+###
+Vibhav Vineet, et al. 
+Incremental dense semantic stereo fusion for large-scale semantic scene reconstruction. 
+In Proc. of the IEEE Intl. Conf. on Robotics & Automation (ICRA), 
+2015.
+>>>
+Map management: CRF smoothing
+Reconstruction: Volumetric SLAM (TSDF)
+Recognition: 2D RDF 
+Active vision: none
+###
+
+###
+John McCormac, Ankur Handa, Andrew Davison, and Stefan Leutenegger. 
+Semanticfusion: Dense 3d semantic mapping with convolutional neural networks. 
+ICRA
+2017
+>>>
+Map management: Bayesian Update + CRF smoothing
+Reconstruction: 3D SLAM
+Recognition: CNN
+Active vision: none
+###
+
+###
+Evan Herbst, Peter Henry, and Dieter Fox. 
+Toward online 3-d object segmentation and mapping. 
+In Proc. of the IEEE Intl. Conf. on Robotics & Automation (ICRA), 
+2014.
+>>>
+Map management: none
+Reconstruction: 3D SLAM
+Recognition: change detection
+Active vision: none
+###
+
+###
+Hendrik Zender, O Martı́nez Mozos, Patric Jensfelt, G-JM Kruijff, and Wolfram Burgard. 
+Conceptual spatial representations for indoor mobile robots. 
+Journal on Robotics and Autonomous Systems (RAS),
+2008.
+>>>
+Map management: incremental (just add, no matching&update)
+Reconstruction: 2D SLAM, topological mapping
+Recognition: place information, 2D Object Recognition (SIFT based)
+Active vision: zooming
+###
+
+###
+Andreas Nüchter and Joachim Hertzberg. 
+Towards semantic maps for mobile robots. 
+Journal on Robotics and Autonomous Systems (RAS),
+2008.
+>>>
+Map management: none
+Reconstruction: 3D SLAM
+Recognition: Scene Interpretation, 3D Object Detection
+Active vision: none
+###
+
+###
+Xuehan Xiong and Daniel Huber. 
+Using context to create semantic 3d models of indoor environments. 
+In Proc. of British Machine Vision Conference (BMVC), 
+2010.
+>>>
+Map management: none
+Reconstruction: single frame
+Recognition: Scene Interpretation with CRF
+Active vision: none
+###
+
+###
+Maros Blaha, Christoph Vogel, Audrey Richard, Jan D Wegner, Thomas Pock, and Konrad Schindler. 
+Large-scale semantic 3d reconstruction: an adaptive multi-resolution model for multi-class volumetric labeling. 
+In Proc. of the IEEE Conf. on Computer Vision and Pattern Recognition (CVPR), 
+2016.
+>>>
+Map management: none
+Reconstruction: Structure-From-Motion + Volumetric Reconstruction
+Recognition: Image Segmentation 
+Active vision: none
+###
+
+###
+Abhijit Kundu, Yin Li, Frank Dellaert, Fuxin Li, and James M Rehg.
+Joint semantic segmentation and 3d reconstruction from monocular video.
+In Proc. of the Europ. Conf. on Computer Vision (ECCV), pages 703–718.
+Springer, 2014.
+>>>
+Map management: none
+Reconstruction: Structure-From-Motion + Volumetric Reconstruction
+Recognition: CRF
+Active vision: none
+###
+
+###
+Christian Häne, Christopher Zach, Andrea Cohen, Roland Angst, and Marc Pollefeys. 
+Joint 3d scene reconstruction and class segmentation. 
+In Proc. of the IEEE Conf. on Computer Vision and Pattern Recognition (CVPR).
+2013
+>>>
+Map management: none
+Reconstruction: Structure-From-Motion + Volumetric Reconstruction
+Recognition: Image Segmentation
+Active vision: none
+###
+
+###
+Koppula et al.
+Semantic Labeling of 3D Point Clouds for Indoor Scenes
+NIPS
+2011
+>>>
+Map management: none
+Reconstruction: 3D SLAM
+Recognition: CRF
+Active vision: none
+###
+
+###
+Valentin et al.
+Mesh Based Semantic Modelling for Indoor and Outdoor Scenes
+CVPR
+2013
+>>>
+Map management: none
+Reconstruction: 3D SLAM + Meshing
+Recognition: CRF
+Active vision: none
+###
+
+###
+Kunze et al.
+Combining Top-down Spatial Reasoning and Bottom-up Object Class Recognition for Scene Understanding
+IROS
+2014
+>>>
+Map management: none
+Reconstruction: none
+Recognition: 3D Object Recognition + Spatial Reasoning
+Active vision: none
+###
+
+###
+Ciocarlie et al.
+Towards Reliable Grasping and Manipulation in Household Environments
+2014
+>>>
+Map management: none
+Reconstruction: none
+Recognition: Scene Segmentation + Object Recognition
+Active vision: none
+###
+
+###
+Rusu et al.
+Towards 3D Point cloud based object maps for household environments
+2008
+>>>
+Map management: frame-by-frame
+Symbol grounding: static
+Reconstruction: metric
+Recognition: Scene Segmentation + 3D Object Recognition
+Active vision: none
+###
+
+###
+Tenorth et al.
+KNOWROB-MAP - Knowledge-Linked Semantic Object Maps
+2010
+>>>
+Map management: offline
+Symbol grounding: static
+Reconstruction: metric
+Recognition: Scene Segmentation + 3D Object Recognition
+Active vision: none
+###
+
+###
+Anand et al.
+Contextually Guided Semantic Labeling and Search for 3D Point Clouds
+2013
+>>>
+Map management: offline
+Symbol grounding: static
+Reconstruction: metric
+Recognition: Scene Labeling
+Active vision: none
+###
+
+###
+Pronobis and Jensfelt
+Large-scale Semantic Mapping and Reasoning with Heterogeneous Modalities
+2012
+>>>
+Map management: frame-by-frame
+Symbol grounding: time&space coherent
+Reconstruction: hybrid
+Recognition: Place Categorization + Object Detection
+Active vision: none
+###
+
+###
+Guenther et al
+Building Semantic Object Maps from Sparse and Noisy 3D Data
+2013
+>>>
+Map management: frame-by-frame
+Symbol grounding: time coherent
+Reconstruction: metric
+Recognition: 3D Object Recognition
+Active vision: none
+###
+
+###
+Lin et al
+Holistic Scene Understanding for 3D Object Detection with RGBD cameras
+2013
+>>>
+Map management: none
+Symbol grounding: none
+Reconstruction: single frame
+Recognition: 3D Object Detection
+Active vision: none
+###
+
+###
+Ruiz-Sarmiento et al
+Building multiversal semantic maps for mobile robot operation
+2017
+>>>
+Map management: frame-by-frame
+Symbol grounding: time&space coherent
+Reconstruction: metric
+Recognition: 3D Object Recognition
+Active vision: none
+###
+
